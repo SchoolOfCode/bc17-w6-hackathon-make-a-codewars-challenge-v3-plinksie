@@ -11,13 +11,13 @@
  *   isPalindrome("hello") should return FALSE, hopefully this is explained well enough.. 🍄
  */
 
+
+
 // Function to check if a string is a palindrome
 function isPalindrome(str) {
-  // Remove non-alphanumeric characters and convert to lowercase
-  const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-
-  // cleaned string is the same forwards and backwards
-  return cleanedStr === cleanedStr.split("").reverse().join("");
-}
-
-module.exports = { isPalindrome };
+    const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+    return cleanedStr === cleanedStr.split("").reverse().join("");
+  }
+  
+  module.exports = { isPalindrome };
+  
