@@ -14,7 +14,7 @@ How to Use It
    First, you need to get the code. Open your terminal and run:
    bash
    Copy code
-   git clone :
+   git clone : https://github.com/SchoolOfCode/bc17-w6-hackathon-make-a-codewars-challenge-v3-plinksie.git
 2. Install the Packages
    You need to install some packages to make everything work. In your terminal, run:
    bash
