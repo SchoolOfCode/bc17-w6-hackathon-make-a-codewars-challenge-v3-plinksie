@@ -1,3 +1,47 @@
+Paulina's Palindrome Checker
+
+Hey there! 🌟 I’m Paulina, and I’m new to coding. I hope this little project helps you out or at least gives you a chuckle. Happy coding!
+
+With this task ive decided decided to build a simple palindrome checker. This project helps you see if a word or phrase reads the same backward as forward (like “racecar” or “A man, a plan, a canal, Panama!”). It’s a fun little project and I’m excited to share it with you! (sorry for all the pink)
+
+What This Does
+
+Checks if your input is a palindrome: Just type in a word or phrase and see if it’s the same backward.
+Shows the result in a nice way: You get a clean and pretty page showing if your input is a palindrome or not.
+How to Use It
+
+1. Clone the Project
+   First, you need to get the code. Open your terminal and run:
+   bash
+   Copy code
+   git clone :
+2. Install the Packages
+   You need to install some packages to make everything work. In your terminal, run:
+   bash
+   Copy code
+   npm install
+3. Start the Server
+   Now, you need to start the server to make the web app run. Just type:
+   bash
+   Copy code
+   node server.js
+   Then open your browser and go to http://localhost:3000. You should see the app!
+   Files in the Project
+
+index.html: This is where you type in your word or phrase.
+server.js: This handles the magic of checking if your input is a palindrome.
+public/: This folder has the styling to make things look nice.
+How It Works
+
+Input Form:
+You type a word or phrase into a form on the webpage.
+The app checks if it’s a palindrome.
+Response Page:
+After you submit, it tells you if your input is a palindrome or not.
+License
+
+Feel free to use this however you like! I’m just learning, so this is pretty simple.
+
 # Make your own Codewars Style Challenge
 
 In this workshop, you'll create your own programming challenge for others to solve, similar to the ones you might have tackled on Codewars. You'll write unit tests to validate solutions. Then you can share your challenge with other bootcampers for them to solve. If a submitted solution passes all your tests, it will be considered a correct solution - just like on Codewars. This is a great chance to get creative and come up with a programming challenge to stump your peers!
@@ -111,4 +155,3 @@ Make sure you present your project in the markdown file - this will be assessed 
 ### 🎫 Ticket 7 - Complete katas from others
 
 To solve katas created by other bootcampers, first clone their repository using the shared link. `cd` into the folder, run `npm install` to get the dependencies, then implement a solution in main.js. Execute their test cases to validate your code against their requirements. Provide feedback on the clarity of their instructions, difficulty level, and effectiveness of the tests. Engaging with each other's challenges allows everyone to learn. Make sure to critique respectfully - creating a programming challenge is difficult!
-
