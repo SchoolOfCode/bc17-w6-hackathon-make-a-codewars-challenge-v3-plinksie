@@ -1,98 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paulina's Little Palindrome Checker 🎀</title>
     <style>
-        body {
-            font-family: "Arial", sans-serif;
-            background-color: #ffe6e6; /* Light pink background 🎀 */
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            padding: 20px;
-        }
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #ffe6e6; /* Light pink background 🎀 */
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 20px;
+      }
 
-        .container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 400px;
-            width: 100%;
-            transition: transform 0.3s ease;
-        }
+      .container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+        transition: transform 0.3s ease;
+      }
 
-        .container:hover {
-            transform: scale(1.02);
-        }
+      .container:hover {
+        transform: scale(1.02);
+      }
 
-        h1 {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 20px;
-        }
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
 
-        input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
+      .subtitle {
+        font-size: 14px;
+        color: #ffb3b3; /* Light pink color */
+        margin-bottom: 20px;
+        font-style: italic;
+      }
 
-        button {
-            background-color: #ff6699; /* Pink button 🌸 */
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            width: 100%;
-        }
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
 
-        button:hover {
-            background-color: #ff3366;
-        }
+      button {
+        background-color: #ff6699; /* Pink button 🌸 */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 100%;
+      }
 
-        a {
-            display: block;
-            margin-top: 20px;
-            color: #ff6699;
-            text-decoration: none;
-        }
+      button:hover {
+        background-color: #ff3366;
+      }
 
-        a:hover {
-            text-decoration: underline;
-        }
+      a {
+        display: block;
+        margin-top: 20px;
+        color: #ff6699;
+        text-decoration: none;
+      }
 
-        .radio-group {
-            margin-bottom: 20px;
-        }
+      a:hover {
+        text-decoration: underline;
+      }
 
-        .radio-group label {
-            margin-right: 10px;
-        }
+      .radio-group {
+        margin-bottom: 20px;
+      }
+
+      .radio-group label {
+        margin-right: 10px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Paulina's Little Palindrome Checker 🎀</h1>
-        <form action="/check-palindrome" method="POST">
-            <div class="radio-group">
-                <label><input type="radio" name="type" value="word" checked /> Single Word</label>
-                <label><input type="radio" name="type" value="sentence" /> Sentence</label>
-            </div>
-            <input type="text" name="word" placeholder="Enter a word or phrase" required />
-            <button type="submit">Check</button>
-        </form>
+      <h1>Paulina's Little Palindrome Checker 🎀</h1>
+      <p class="subtitle">
+        Try by entering things like: KAYAK, DEED, WOW, etc., or sentences like
+        "A man, a plan, a canal, Panama".
+      </p>
+      <form action="/check-palindrome" method="POST">
+        <div class="radio-group">
+          <label
+            ><input type="radio" name="type" value="word" checked /> Single
+            Word</label
+          >
+          <label
+            ><input type="radio" name="type" value="sentence" /> Sentence</label
+          >
+        </div>
+        <input
+          type="text"
+          name="word"
+          placeholder="Enter a word or phrase"
+          required
+        />
+        <button type="submit">Check</button>
+      </form>
     </div>
-</body>
+  </body>
 </html>
