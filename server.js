@@ -1,27 +1,25 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
+const { isPalindrome } = require("./main");
 const app = express();
 const port = 3000;
 
-// Middleware to parse incoming form data :)
+// Middleware to parse incoming form data
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve static files (HTML, CSS)
 app.use(express.static(path.join(__dirname, "public")));
 
-// Render of the initial form page
+// Render the initial form page
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-// Handle form for the answers aka submission
+// Handle form submission
 app.post("/check-palindrome", (req, res) => {
   const word = req.body.word;
-  const isPalindrome = (str) => {
-    const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-    return cleanedStr === cleanedStr.split("").reverse().join("");
-  };
+  const type = req.body.type; // Added to differentiate between single word and sentence
 
   const result = isPalindrome(word)
     ? `"${word}" is a palindrome!`
@@ -93,7 +91,7 @@ app.post("/check-palindrome", (req, res) => {
     `);
 });
 
-// Server
+// Start the server
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });

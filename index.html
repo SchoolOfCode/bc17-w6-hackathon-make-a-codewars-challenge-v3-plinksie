@@ -72,12 +72,29 @@
         font-size: 18px;
         margin-top: 20px;
       }
+
+      .radio-group {
+        margin-bottom: 20px;
+      }
+
+      .radio-group label {
+        margin-right: 10px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <h1>Paulina's Little Palindrome Checker 🎀</h1>
       <form action="/check-palindrome" method="POST">
+        <div class="radio-group">
+          <label
+            ><input type="radio" name="type" value="word" checked /> Single
+            Word</label
+          >
+          <label
+            ><input type="radio" name="type" value="sentence" /> Sentence</label
+          >
+        </div>
         <input
           type="text"
           name="word"
