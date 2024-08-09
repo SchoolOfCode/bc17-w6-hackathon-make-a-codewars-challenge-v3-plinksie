@@ -1,6 +1,10 @@
-Paulina's Palindrome Checker
+Paulina's Palindrome Checker ☺️
 
-Hey there! 🌟 I hope this little project helps you out or at least gives you a chuckle. Happy coding!
+Please view the presentation to understand the making and features of my product: https://prezi.com/view/7wQPI4MyTFAfOqt4CSyB/
+
+🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄
+
+Hey there! 🌟 I hope this little project at least gives you a chuckle. Happy coding!
 
 With this task ive decided decided to build a simple palindrome checker. This project helps you see if a word or phrase reads the same backward as forward (like “racecar” or “A man, a plan, a canal, Panama!”). It’s a fun little project and I’m excited to share it with you! (sorry for all the pink)
 
@@ -20,6 +24,7 @@ How to Use It
    bash
    Copy code
    npm install
+
 3. Start the Server
    Now, you need to start the server to make the web app run. Just type:
    bash
