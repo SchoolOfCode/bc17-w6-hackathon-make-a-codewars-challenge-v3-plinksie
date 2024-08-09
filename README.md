@@ -2,6 +2,10 @@ Paulina's Palindrome Checker
 
 Hey there! 🌟 I’m Paulina, and I’m new to coding. I hope this little project helps you out or at least gives you a chuckle. Happy coding!
 
+
+PLEASE VIEW THE PRESNTATION TO UNDERSTAND THE PROCESS: https://prezi.com/view/7wQPI4MyTFAfOqt4CSyB/
+
+
 With this task ive decided decided to build a simple palindrome checker. This project helps you see if a word or phrase reads the same backward as forward (like “racecar” or “A man, a plan, a canal, Panama!”). It’s a fun little project and I’m excited to share it with you! (sorry for all the pink)
 
 What This Does

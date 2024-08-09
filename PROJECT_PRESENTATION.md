@@ -1,6 +1,6 @@
 Paulina's Palindrome Checker
 
-Hey there! 🌟  I hope this little project helps you out or at least gives you a chuckle. Happy coding!
+Hey there! 🌟 I hope this little project helps you out or at least gives you a chuckle. Happy coding!
 
 With this task ive decided decided to build a simple palindrome checker. This project helps you see if a word or phrase reads the same backward as forward (like “racecar” or “A man, a plan, a canal, Panama!”). It’s a fun little project and I’m excited to share it with you! (sorry for all the pink)
 
@@ -11,22 +11,22 @@ Shows the result in a nice way: You get a clean and pretty page showing if your 
 How to Use It
 
 1. Clone the Project
-First, you need to get the code. Open your terminal and run:
-bash
-Copy code
-git clone : https://github.com/SchoolOfCode/bc17-w6-hackathon-make-a-codewars-challenge-v3-plinksie.git
+   First, you need to get the code. Open your terminal and run:
+   bash
+   Copy code
+   git clone : https://github.com/SchoolOfCode/bc17-w6-hackathon-make-a-codewars-challenge-v3-plinksie.git
 2. Install the Packages
-You need to install some packages to make everything work. In your terminal, run:
-bash
-Copy code
-npm install
+   You need to install some packages to make everything work. In your terminal, run:
+   bash
+   Copy code
+   npm install
 3. Start the Server
-Now, you need to start the server to make the web app run. Just type:
-bash
-Copy code
-node server.js
-Then open your browser and go to http://localhost:3000. You should see the app!
-Files in the Project
+   Now, you need to start the server to make the web app run. Just type:
+   bash
+   Copy code
+   node server.js
+   Then open your browser and go to http://localhost:3000. You should see the app!
+   Files in the Project
 
 index.html: This is where you type in your word or phrase.
 server.js: This handles the magic of checking if your input is a palindrome.
